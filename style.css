@@ -49,7 +49,7 @@ body{
 #header{
     width:100%;
     height: 100vh;
-    background-image: linear-gradient(to right , rgba(0,0,0,7), rgba(0,0,0,0.7)), url(Photos/index.jpg);
+    background-image: linear-gradient(to right , rgba(0,0,0,0.7), rgba(0,0,0,0.55)), url(Photos/index.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -139,7 +139,7 @@ nav ul li a:hover::before{
 
 }
 
-/* ------------------about---------------- */
+/* ---------------------------------------about------------------------------------------------ */
 
 #about{
     padding: 80px 0;
@@ -166,7 +166,7 @@ nav ul li a:hover::before{
 .sub-title{
     font-weight: 600;
     font-size:60px ;
-    color:white;
+    color:rgb(235, 221, 221);
 }
 
 .tab-titles{
@@ -200,7 +200,12 @@ nav ul li a:hover::before{
 }
 .tab-contents ul li span{
     color: #b54769;
-    font-size:14px;
+    font-size:20px;
+    font-weight:bold;
+    line-height: 35px;
+}
+.tab-contents ul h3{
+    color:white;
 }
 .tab-contents{
     display: none;
@@ -273,6 +278,7 @@ nav ul li a:hover::before{
 }
 .project img{
     width: 100%;
+    height:100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
